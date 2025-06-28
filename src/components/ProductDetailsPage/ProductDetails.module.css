@@ -1,0 +1,182 @@
+.imageBox {
+  margin: 1rem auto;
+  padding: 1rem;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.imageBox img {
+  border-radius: 0.3rem;
+}
+
+.imagesList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagesList div img {
+  height: 69px;
+  margin-top: 12px;
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.brandName {
+  margin: 0;
+  color: #09540e;
+  padding: 6px 0 6px 6px;
+}
+
+.titleName {
+  font-weight: bold;
+  padding-left: 0.3rem;
+}
+
+.moneyBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+}
+.price {
+  font-weight: bold;
+  color: rgb(12, 218, 9);
+}
+
+.moneybtn {
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 1px gainsboro;
+  background-color: rgb(244, 216, 101);
+  border: none;
+  color: #000000;
+}
+
+.disRate {
+  color: red;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.moneybtn:hover {
+  transform: scale(105%);
+}
+
+.btnBOx {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+.disRateoff {
+  margin-left: 1rem;
+  color: #318a37;
+}
+
+.stockBtns {
+  display: flex;
+  margin-top: 12px;
+  width: 102px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stockBtns div {
+  font-weight: bold;
+}
+
+.stockBtns button {
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: none;
+  box-shadow: 1px 2px 2px rgb(74, 73, 72);
+}
+
+.inc {
+  background: #0ab115;
+  color: #fff;
+}
+.dic {
+  background: #e21717;
+  color: #fff;
+}
+
+.addToCardBtn {
+  color: #fff;
+  background: rgb(255, 129, 3);
+  border: none;
+  border-radius: 0.2rem;
+  height: 31px;
+  margin-right: 12px;
+  transition: all 0.3s ease;
+}
+.buyBtn {
+  color: #fff;
+  background: rgb(18, 18, 18);
+  border: none;
+  border-radius: 0.2rem;
+  height: 31px;
+  transition: all 0.3s ease;
+}
+.addToCardBtn:hover {
+  color: #fff;
+  background: rgb(218, 110, 3);
+  border: none;
+  border-radius: 0.2rem;
+  height: 31px;
+  margin-right: 12px;
+}
+.buyBtn:hover {
+  color: rgb(18, 18, 18);
+  background: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  height: 31px;
+  border: 1px solid rgb(18, 18, 18);
+}
+.downBtn {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 992px) {
+  .imageBox {
+    height: 250px;
+  }
+
+  .imagesList div img {
+    height: 43px;
+  }
+}
+@media screen and (max-width: 737px) {
+  .imageBox {
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .imagesList div img {
+    height: 43px;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 537px) {
+  .imageBox {
+    width: 330px;
+    overflow: hidden;
+  }
+
+  .imageBox img {
+    /* height: 100%; */
+    width: 100%;
+  }
+
+  .imagesList div img {
+    height: 43px;
+    margin-bottom: 1rem;
+  }
+}

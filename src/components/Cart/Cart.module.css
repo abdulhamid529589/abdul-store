@@ -1,0 +1,59 @@
+.stockBtns button {
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: none;
+  box-shadow: 1px 2px 2px rgb(74, 73, 72);
+}
+
+.inc {
+  background: #0ab115;
+  color: #fff;
+}
+.dic {
+  background: #e21717;
+  color: #fff;
+}
+
+.valueBox {
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  margin: 0 6px;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  font-size: 1.9rem;
+  transition: transform 0.3s ease;
+}
+
+.deleteBtn:hover {
+  animation: vibrate 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

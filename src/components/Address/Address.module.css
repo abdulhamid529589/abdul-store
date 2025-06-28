@@ -1,0 +1,181 @@
+.mainBox{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    margin: 0rem auto;
+}
+
+.imageBox{
+    height: 100%;
+    width: 40vw;
+    overflow: hidden;
+    padding: 1rem;
+    position: relative;
+}
+.imageBox img{
+    border-radius: .5rem;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.infoBox{
+    margin-top: 1.7rem;
+    width: 50%;
+}
+
+.headingLine{
+    text-align: center;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputBox{
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.inputBox input{
+    padding: .3rem;
+    margin: 12px 8px ;
+    border-radius: .4rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.placedBtn{
+    border: none;
+    color: #fff;
+    border-radius: .3rem;
+    margin-left: auto;
+    display: block;
+    margin-right: 3rem;
+    padding: 4px 5px;
+    margin-top: 1rem;
+    background-color: #0080FF;
+}
+
+.emailBox{
+    width: 193%;
+}
+
+.messageBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    margin: 1.3rem;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.messageBox h4{
+    color: #0080FF;
+    font-weight: bold;
+    background-color: #3a3838b6;
+    border-radius: .4rem;
+}
+
+.messageBox p{
+    color: #fff;
+    background-color: #0d0c0c;
+    border-radius: .4rem;
+    width: 110%;
+    text-align: center;
+    padding: 0 14px;
+}
+
+.backBtn:hover{
+    border: none;
+    border-radius: .4rem;
+    border: rgb(248, 248, 1) 1px solid;
+    color: rgb(248, 248, 1);
+    background: transparent;
+    transition: all .3s ease;
+}
+
+.backBtn{
+    border: none;
+    border-radius: .4rem;
+    border: rgb(248, 248, 1) 1px solid;
+    color: rgba(0, 0, 0, 0.983);
+    background: rgb(248, 248, 1);
+    transition: all .3s ease;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+   .messageBox h4{
+    font-size: 1.2rem;
+   }
+}
+@media screen and (max-width: 860px) {
+   .mainBox{
+  justify-content: center;
+    margin: 0;
+    padding: 0;
+   }
+  
+   .imageBox{
+    display: none;
+    
+}
+}
+@media screen and (max-width: 772px) {
+   .mainBox{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+   }
+}
+@media screen and (max-width: 720px) {
+   .mainBox{
+    justify-content: start;
+    margin: 0 2rem;
+    padding: 0;
+   }
+}
+@media screen and (max-width: 590px) {
+   .mainBox{
+   height: auto;
+   margin: 0;
+ padding: 0;
+}
+   .inputBox{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .emailBox{
+    width: 160%;
+}
+
+.placedBtn{
+    margin: 1rem auto;
+}
+}
+
+@media screen and (max-width: 490px) {
+    .inputBox{
+        min-width: 340px;
+    grid-template-columns: repeat(1,1fr);
+   }
+
+   .headingLine{
+   width: 340px;
+   }
+   .emailBox{
+    width: auto;
+}
+
+.placedBtn{
+    padding: .5rem 2rem;
+    width: 200px;
+    display: block;
+    margin-left: 3rem;
+}
+}

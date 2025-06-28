@@ -1,0 +1,557 @@
+.hero_details {
+  background: url(../../assets/ecom.jpg);
+  background-position: center;
+  width: 100%;
+  /* height: 598px; */
+  min-height: calc(100vh - 56px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero_details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5rem;
+}
+
+.smallone {
+  font-weight: bold;
+  margin-bottom: -2px;
+  color:white;
+}
+
+.boldone {
+  font-weight: 800;
+  color: white;
+}
+
+.colorone {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.paraone {
+  color: rgb(255, 255, 255);
+}
+.shopNowBtn {
+  border: 1px solid rgb(250, 5, 5);
+  color: #fff;
+  background-color: rgb(250, 5, 5);
+  border-radius: 0.3rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.shopNowBtn a {
+  text-decoration: none;
+  color: #fff;
+}
+.shopNowBtn a:hover {
+  color: rgb(250, 5, 5);
+}
+
+.shopNowBtn:hover {
+  background-color: #ffffff;
+  color: rgb(250, 5, 5);
+}
+
+/* Planct section css */
+
+.plantSection {
+  background: url(../../assets/plant.png);
+  background-position: center;
+  /* width: 100%; */
+  height: 398px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin: 3rem 0 0rem 0; */
+}
+
+.plantDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 0 9rem;
+}
+
+.plantheading {
+  font-family: arial;
+  font-weight: bold;
+}
+
+.plantnum {
+  color: green;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+.plantpara {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.plantbtn {
+  margin-top: 1rem;
+  border: none;
+  background-color: rgb(102, 203, 102);
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 0 0.5rem;
+}
+
+.goodnesssBox {
+  display: flex;
+  flex-direction: column;
+  height: 255px;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodnesssBox h1 {
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: green;
+  font-weight: bold;
+}
+.goodnesssBox p {
+  padding: 3rem;
+  border-bottom: 1px solid gray;
+}
+
+/* newsletter css */
+.newsletterBox {
+  padding: 1rem 2rem;
+  background-color: rgb(5, 2, 52);
+}
+
+.newsBoxparent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+
+.newbox {
+  margin: 0.4rem 2rem;
+  width: 100%;
+}
+
+.newsHeading {
+  color: #fff;
+}
+
+.newspara {
+  color: rgb(120, 116, 116);
+  font-weight: 600;
+}
+
+.newspara span {
+  color: orange;
+  font-weight: 600;
+}
+
+.inputletter {
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.inputletter input {
+  outline: none;
+  border-radius: 0.3rem 0 0 0.3rem;
+  border: none;
+  padding: 6px;
+  width: 233px;
+}
+.inputletter button {
+  border: none;
+  border-radius: 0 0.3rem 0.3rem 0;
+  padding: 6px 9px;
+  color: #fff;
+  background-color: rgb(9, 110, 68);
+}
+
+/* product Section */
+.fashionHeading {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.3rem;
+  padding: 1rem 0;
+  font-style: oblique;
+  /* background-color: rgb(225, 28, 80); */
+}
+
+.cardsBox {
+  display: grid;
+  gap: 12px;
+  margin: 1rem auto;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card {
+  height: 310px;
+  width: 240px;
+  padding: 9px;
+  /* margin: 5px 5px 5px 22px; */
+  background: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+  /* box-shadow: 1px 1px 1px 1px gray; */
+  transition: all 0.3s ease;
+  border: 1px solid rgba(134, 133, 133, 0.234);
+}
+
+.card:hover {
+  transform: scale(103%);
+}
+
+.imgBox {
+  height: 140px;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+.imgBox img {
+  height: 140px;
+  width: 100%;
+  border: 1px solid rgba(134, 133, 133, 0.234);
+  border-radius: 0.3rem;
+}
+
+.brandName {
+  margin: 0;
+  color: #09540e;
+  padding: 6px 0 6px 6px;
+  overflow: hidden;
+  height: 29px;
+}
+
+.titleName {
+  font-weight: bold;
+  padding-left: 0.3rem;
+  margin: 0;
+  height: 25px;
+  overflow: hidden;
+}
+
+.moneyBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+}
+.price {
+  font-weight: bold;
+  color: rgb(12, 218, 9);
+  margin-top: 6px;
+}
+
+.moneybtn {
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 1px gainsboro;
+  background-color: rgb(244, 216, 101);
+  border: none;
+  color: #000000;
+}
+
+.disRate {
+  color: red;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.btnBOx {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+.disRateoff {
+  margin-left: 1rem;
+  color: #318a37;
+}
+
+.moneybtn:hover {
+  transform: scale(105%);
+}
+
+/* servoce box */
+
+.serviceBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 12px;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.serviceCard {
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: aliceblue;
+  width: 190px;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+}
+
+.serviceIcon {
+  height: 24px;
+  margin: 0 14px;
+}
+
+.brandReview {
+  padding: 0;
+  margin: 0;
+  height: 24px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 818px) {
+  .hero_details {
+    background-position: 50% center;
+  }
+  .paraone {
+    width: 270px;
+  }
+  .shopNowBtn {
+    font-weight: 400;
+    margin-top: -0.8rem;
+    margin-left: 3rem;
+  }
+  .hero_details {
+    padding-top: 4rem;
+  }
+
+  /* plant Box */
+
+  .plantSection {
+    background-position: 40% center;
+    height: 358px;
+  }
+
+  .plantDetails {
+    padding: 4rem 0 0 17rem;
+  }
+
+  .goodnesssBox h1 {
+    margin-top: 1rem;
+  }
+  .goodnesssBox p {
+    padding-top: 2rem;
+  }
+
+  /* product Box */
+  .fashionHeading {
+    font-size: 2.3rem;
+  }
+
+  .cardsBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .card {
+    height: 310px;
+    width: 240px;
+    padding: 9px;
+    /* margin: 5px 5px 5px 22px; */
+    background: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+    transition: all 0.3s ease;
+    border: 1px solid rgba(134, 133, 133, 0.234);
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .hero_details {
+    background-position: 40% center;
+  }
+  .paraone {
+    width: 220px;
+  }
+  .shopNowBtn {
+    margin-top: -0.4rem;
+  }
+  .hero_details {
+    padding-top: 3.4rem;
+  }
+
+  /* plant Box */
+
+  .plantSection {
+    background-position: 40% center;
+    height: 358px;
+  }
+
+  .plantDetails {
+    padding: 4rem 0 0 14rem;
+  }
+  .plantheading {
+    font-size: 1.5rem;
+  }
+
+  .goodnesssBox h1 {
+    margin-top: 4rem;
+    /* padding-top: 4rem; */
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 518px) {
+  .hero_details {
+    background-position: 30% center;
+  }
+
+  /* plant Box */
+
+  .plantSection {
+    background-position: 30% center;
+
+    height: 458px;
+  }
+
+  .plantDetails {
+    padding: 0rem 0 0 2rem;
+    background-color: rgba(0, 0, 0, 0.446);
+    color: #fff;
+    font-weight: 400;
+    padding: 12px;
+
+    height: 458px;
+  }
+
+  .plantnum {
+    color: #05a010;
+    background: #fcfbfb;
+    padding: 5px;
+    border-radius: 0.4rem;
+  }
+
+  .plantheading {
+    font-size: 1.2rem;
+  }
+
+  .goodnesssBox h1 {
+    margin-top: 7rem;
+    font-size: 2rem;
+  }
+
+  .fashionHeading {
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero_details {
+    background-position: 40% center;
+  }
+  .paraone {
+    width: 220px;
+  }
+  .shopNowBtn {
+    margin-top: -0.4rem;
+  }
+  .hero_details {
+    padding: 1.4rem;
+  }
+
+  /* plant Box */
+
+  .plantSection {
+    background-position: 25% center;
+  }
+  .plantheading {
+    font-size: 1.1rem;
+  }
+
+  .goodnesssBox h1 {
+    margin-top: 13rem;
+    font-size: 1.4rem;
+  }
+  .inputletter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputletter input {
+    border-radius: 0.3rem;
+    width: 100%;
+  }
+  .inputletter button {
+    border-radius: 0.3rem;
+    display: inline-block;
+    width: 99px;
+    margin: 1rem auto;
+  }
+}
+
+/* plantBox responsive design */
+
+@media screen and (max-width: 1250px) {
+  .cardsBox {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .serviceBox {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cardsBox {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .serviceBox {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cardsBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .serviceBox {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 12px;
+  }
+
+  .newsBoxparent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 578px) {
+  .cardsBox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .serviceBox {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .fashionHeading {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 454px) {
+  .fashionHeading {
+    margin-top: 3rem;
+    padding-top: 9rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 358px) {
+  .fashionHeading {
+    margin-top: 3rem;
+    padding-top: 11rem;
+    font-size: 1rem;
+  }
+}

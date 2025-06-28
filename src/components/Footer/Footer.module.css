@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgb(204, 224, 240);
+}
+
+.icon:hover {
+  transform: scale(105%);
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.socialIcons a {
+  margin: 0 4px;
+}
+
+.linkedin {
+  color: #0f85c5;
+  background: #fff;
+}
+.github {
+  color: black;
+}
+.instagram {
+  background: #fff;
+  border-radius: 0.4rem;
+  color: rgb(243, 59, 151);
+}
+
+.privacyLink {
+  color: #0f85c5;
+  cursor: pointer;
+}
+
+.bottomFooter {
+  border-top: 1px solid gray;
+  padding-top: 0.5rem;
+  background-color: rgba(234, 237, 239, 0.97);
+}

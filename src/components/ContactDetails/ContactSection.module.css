@@ -1,0 +1,109 @@
+.contentDiv {
+  background-image: url(../../assets/contact2.jpg);
+  height: 96px;
+  filter: contrast(0.8);
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #646464ba;
+}
+.contactHeading {
+  font-weight: bold;
+  color: rgb(4, 76, 25);
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  filter: brightness(6);
+}
+
+.contactPara {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  filter: brightness(11);
+}
+
+.hiBox {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.formdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #646464ba; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.input,
+.textarea {
+  width: 70%;
+  margin: 12px auto;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 4px 9px;
+  outline: none;
+  border: 1px solid gray;
+}
+.Focusinput,
+.focustextarea {
+  width: 70%;
+  margin: 12px auto;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 4px 9px;
+  outline: none;
+  border: 1px solid gray;
+  outline: 1px solid red;
+}
+
+.submitBtn {
+  display: block;
+  width: 89px;
+  margin: 13px auto;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+  background: rgb(4, 76, 25);
+}
+.boxdatas {
+  text-align: center;
+}
+
+.firstline {
+  margin: 3px auto;
+  text-align: center;
+}
+
+.secline {
+  margin: 3px auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.msgdata {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  /* padding: 0 12%; */
+}
+
+.msgLink {
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 12px;
+}
