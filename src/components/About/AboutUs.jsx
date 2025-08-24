@@ -12,7 +12,7 @@ const AboutUs = () => {
         <p className="text-blk subHeading">
           The website www.uniqueStore.in ("uniqueStore.in") is operated by
           unique Store Seller Services Private Limited ("uniqueStore" or "us" or
-          "we" or "our"), having its registered office located Arkan Housing Society, Bahaddarhat, Chittagong, Bangladesh. Please read the Conditions of Use document carefully
+          "we" or "our"), having its registered office located Halishahar, A Block bus Stand, Chittagong, Bangladesh. Please read the Conditions of Use document carefully
           before using the uniqueStore.in website. By using the uniqueStore.in
           website, you signify your agreement to be bound as protservice
           providers to fulfill orders for products or services, and to deliver

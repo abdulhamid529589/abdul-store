@@ -134,7 +134,7 @@ const Footer = () => {
         </div>
         <div className={`${styles.bottomFooter} row justify-item-center`}>
           <div className="col-xl-9 col-md-7 col-sm-6 ">
-            <p>&copy; Developed by Mohammad Abdul Hamid with 💗 2025</p>
+            <p>&copy; Developed by Mohammad Abdul Hamid 💗 2025</p>
           </div>
           <div className="col-xl-3 col-md-5 col-sm-6">
             <p className={styles.privacyLink}>
